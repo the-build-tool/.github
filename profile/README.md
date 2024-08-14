@@ -8,6 +8,7 @@
 - [ ] JS版本兼容性
 - [ ] Source Map
 - [ ] 持久化缓存
+- [ ] 并行构建
 
 ```sh
 curl 
@@ -34,3 +35,10 @@ git diff --name-only
 # Rollup
 
 # Vite
+
+> `monorepo`软件开发策略
+
+```sh
+npm i treer -g
+
+```
