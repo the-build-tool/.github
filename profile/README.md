@@ -1,3 +1,13 @@
+脚手架开发依赖工具:
+
+- `commander`
+- `yargs`
+- `chalk`
+- `ora`
+- `stmux`
+- `listr`
+- `inquirier`
+
 # Webpack
 
 > 增量构建
