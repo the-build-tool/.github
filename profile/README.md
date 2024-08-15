@@ -6,7 +6,7 @@
 
 - [ ] 源码压缩混淆
 - [ ] JS版本兼容性
-- [ ] Source Map
+- [ ] Source Map（`[inline-|hidden-|eval-][nosources-][cheap-[module-]]source-map`）
 - [ ] 持久化缓存
 - [ ] 并行构建
 
@@ -31,6 +31,11 @@ git diff --name-only
 - 外链CDN
 
 [雅虎军规](https://chenoge.github.io/2018/07/03/%E9%9B%85%E8%99%8E%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E7%9A%8435%E6%9D%A1%E5%86%9B%E8%A7%84/)
+
+```html
+<script cross-origin="false" src=""></script>
+
+```
 
 # Rollup
 
