@@ -16,7 +16,7 @@ curl
 
 wget
 
-npm i speed-measure-webpack-plugin thread-loader -D
+npm i speed-measure-webpack-plugin thread-loader webpack-bundle-analyzer -D
 
 git diff --name-only
 
