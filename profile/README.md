@@ -10,6 +10,7 @@
 - [ ] 持久化缓存
 - [ ] 并行构建
 - [ ] 缓存优化二次构建
+- [ ] HMR
 
 ```sh
 curl 
@@ -17,6 +18,8 @@ curl
 wget
 
 npm i speed-measure-webpack-plugin thread-loader webpack-bundle-analyzer -D
+
+npm i node-gyp -g
 
 git diff --name-only
 
@@ -30,6 +33,7 @@ git diff --name-only
 - 移除死代码（tree shaking）
 - 资源压缩
 - 外链CDN
+- 公共模块构建
 
 > Module Federation
 
@@ -50,3 +54,5 @@ git diff --name-only
 npm i treer -g
 
 ```
+
+前端交互解耦(FDD)
