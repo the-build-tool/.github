@@ -1,3 +1,72 @@
+# 工具链
+
+<https://rust-analyzer.github.io/>
+
+```sh
+brew install rustup-init
+
+rustc -V 
+
+rustc --explain E0423
+
+cargo new <project_name>
+
+```
+
+```rs
+const PI:f64 = 3.141_592_653_59;
+
+
+fn main() {
+  let username:&str = "soetas";
+  let mut stars:usize = 789;
+
+  let is_male:bool = false;
+  let is_male:&str = "yes";
+
+  static LICENSE:&'static str = "BSD";
+
+  let language = String::from("rust");
+  let account:(&str, &str) = ("soetas", "3228891558@qq.com");
+  let (username, email) = account;
+
+  let status_code = 500;
+  let status_text = match status_code {
+      200 => "Ok",
+      201 => "Created",
+      302 => "Found",
+      404 => "Not Found",
+      500 => "Internal Server Error",
+      _ => "Other"
+  };
+
+  let colors = vec!["pink", "orange", "skyblue", ];
+  let languages:[&str;3] = ["rust", "go", "python",];
+
+  for i in 0..=10 {
+      println!("{}", i);
+  }
+  
+  for color in colors.iter() {
+      println!("{}", color);
+  }
+
+  loop {
+    
+  }
+
+
+  // macro  
+  println!("");
+  
+
+}
+
+```
+
+> 第一性原则
+
+
 # Webpack
 
 > 增量构建
