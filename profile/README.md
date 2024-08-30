@@ -113,6 +113,9 @@ git diff --name-only
 
 ```
 
+> `chunkhash`和`contenthash`
+
+
 # Rollup
 
 # Vite
