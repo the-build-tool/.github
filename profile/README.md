@@ -13,6 +13,8 @@ cargo new <project_name>
 
 ```
 
+> 类型兼容性
+
 ```rs
 const PI:f64 = 3.141_592_653_59;
 
