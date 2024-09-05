@@ -119,6 +119,7 @@ git diff --name-only
 
 <https://terser.org/>
 
+> UMD模块化解决方案
 
 # Rollup
 
