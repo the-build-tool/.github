@@ -81,7 +81,25 @@ fn main() {
 - [ ] 持久化缓存
 - [ ] 并行构建
 - [ ] 缓存优化二次构建
-- [ ] HMR
+- [ ] 模块热替换(HMR)和热加载
+- [ ] 代码分离
+- [ ] 预获取和预加载
+
+```js
+if(module.hot) {
+  module.hot.accept('', ()=>{
+
+  })
+}
+
+```
+
+
+```html
+<link rel="prefetch" as="script" href="http://localhost:8080/share.bundle.js">
+
+
+```
 
 ```sh
 curl 
